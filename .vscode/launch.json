@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Game",
+      "request": "launch",
+      "mainClass": "spaceinvader3d.Game",
+      "projectName": "Space_Invaders_3D - Copie_e4c5977c"
+    },
+    {
+      "type": "java",
+      "name": "Game",
+      "request": "launch",
+      "mainClass": "spaceinvader3d.game.Game",
+      "projectName": "Space_Invaders_3D_b6a06ecf"
+    },
+    {
+      "type": "java",
+      "name": "Launch Game",
+      "request": "launch",
+      "mainClass": "Game",
+      "classPaths": [
+        "${workspaceFolder}/build",
+        "${workspaceFolder}/lib/jogamp-all-platforms/jar/jogl-all.jar",
+        "${workspaceFolder}/lib/jogamp-all-platforms/jar/gluegen-rt.jar",
+        "${workspaceFolder}/lib/jogamp-all-platforms/jar/gluegen.jar",
+        "${workspaceFolder}/lib/joml-1.10.2.jar"
+      ],
+      "vmArgs": "-Djava.library.path=${workspaceFolder}/lib/jogamp-all-platforms/jar"
+    }
+  ]
+}
