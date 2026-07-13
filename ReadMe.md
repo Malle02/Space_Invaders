@@ -1,4 +1,4 @@
-# Space Invaders 3D (Mallé TRAORE)  Licence pro projet web et Mobile
+# Space Invaders 3D  Licence pro projet web et Mobile
 
 
 Space Invaders 3D est un jeu d'arcade moderne inspiré du classique Space Invaders. Le jeu propose des vagues d'ennemis variés, des effets visuels étonnants, et des explosions réalistes pour une expérience immersive.
